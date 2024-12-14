@@ -1,4 +1,6 @@
-# My MacOs environment
+Disclaimer: Depending on when you are looking at these instructions, you may have to make some adjustments. For example, you can set up the conda enviroment of the igwn for a later "version" (i.e. igwn-py310)
+**************************
+## My MacOs environment
 1. ```xcode-select --install```
 2. ```softwareupdate --all --install --force`
 3. ```sudo xcode-select --switch /Library/Developer/CommandLineTools```
@@ -17,7 +19,7 @@ Note that 4 and 5 should give something (not error)
 13. ```pip install jupyterlab_hdf```
 14. ```conda install -c conda-forge jupyterlab jupyterlab-git```
 
-## CVMFS for MacOS
+### CVMFS for MacOS
 Install CVFMS https://computing.docs.ligo.org/guide/cvmfs/
 1. Install Fuse for [MacOS](https://osxfuse.github.io/)
 2. Install CVMFS pkg from here [link](https://cernvm.cern.ch/fs/)
@@ -73,7 +75,7 @@ Install CVFMS https://computing.docs.ligo.org/guide/cvmfs/
 
 NOTE: steps 17, 19, 21 and 22 should be regularly rerunned
 
-## IGWN-PY39
+### IGWN-PY39
 Download one of the environment YAML files (currently igwn-py39, see Environments).
 1. ```conda config --add channels conda-forge```
 2. ```conda env create --file igwn-py39.yaml```
