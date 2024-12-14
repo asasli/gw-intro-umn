@@ -1,5 +1,15 @@
 # Introduction to GW Research at UMN
 
+## Table of Contents
+- [Overview](#overview)
+- [Setting Up Environments and LIGO Account](#setting-up-environments-and-ligo-account)
+- [Python](#python)
+- [Parameter Estimation with MCMC](#parameter-estimation-with-mcmc)
+- [Waveform Generation](#waveform-generation)
+- [Suggested Papers](#suggested-papers)
+- [Machine Learning in GW Astronomy](#machine-learning-in-gw-astronomy)
+
+## Overview
 This repository collects essential steps for conducting research in gravitational-wave (GW) astronomy, based on our activities at the University of Minnesota (UMN).
 ******************
 During your educational-trip, I suggest you to have always open the [ask-IGWN page](https://ask.igwn.org/) where you can ask **ANYTHING** about GW!
