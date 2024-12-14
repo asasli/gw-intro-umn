@@ -36,7 +36,7 @@ Waveform generation is fundamental for comparing theoretical models with observe
 
 > - [BBH waveform generation and injection into gaussian noise using ```Bilby``` package](https://github.com/asasli/gw-intro-umn/blob/main/https://github.com/asasli/gw-intro-umn/blob/main/BBH-Bilby_plus_injection.ipynb)
 > - [BBH waveform generation and injection into gaussian noise using ```PyCBC``` package](https://github.com/asasli/gw-intro-umn/blob/main/BBH-PyCBC_plus_injection.ipynb)
->
+> - [BNS waveform generation with ```PyCBC``` package]()
 
 * Note: I would suggest to take a look in all the above tutorials, because the might have some information that is not included in another tutorial! *
 
