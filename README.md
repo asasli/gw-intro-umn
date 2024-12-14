@@ -34,9 +34,19 @@ Parameter estimation is a crucial part of GW astronomy, often using techniques l
 
 Waveform generation is fundamental for comparing theoretical models with observed GW data. This section will provide resources and examples to help you generate GW waveforms. We basically use two different packages, [Bilby](https://lscsoft.docs.ligo.org/bilby/) and [PyCBC](https://pycbc.org/pycbc/latest/html/index.html#).
 
-## Suggested Papers
+## Suggested Papers and Books
 
 For an in-depth understanding of GW research, reading the foundational and recent papers in the field is highly recommended. A curated list of suggested papers will be added here soon.
+
+### Books
+
+> - [Gravitational-Wave Astronomy](https://global.oup.com/academic/product/gravitational-wave-astronomy-9780198568032?cc=gr&lang=en&), N. Andersson (2021)
+> - [Gravitational Waves, Vol. 1](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780198570745.001.0001/acprof-9780198570745), M. Maggiore (2007)
+> - [Gravitational Waves, Vol. 2](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198570899.001.0001/oso-9780198570899), M. Maggiore (2018)
+
+### Data analysis overview papers
+> - [A guide to LIGO–Virgo detector noise and extraction of transient gravitational-wave signals](https://iopscience.iop.org/article/10.1088/1361-6382/ab685e) and [codes](https://github.com/gw-odw/Data-Guide-Paper), Abbott et al. (2020)
+> - [A Roadmap to Gravitational Wave Data Analysis](https://www.nature.com/articles/s41550-022-01849-y), L. Speri et. al (2022)
 
 ## Machine Learning in GW Astronomy
 
