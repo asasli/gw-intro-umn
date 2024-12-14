@@ -1,7 +1,13 @@
 # Introduction to GW Research at UMN
 
 This repository collects essential steps for conducting research in gravitational-wave (GW) astronomy, based on our activities at the University of Minnesota (UMN).
+******************
+During your educational-trip, I suggest you to have always open the [ask-IGWN page](https://ask.igwn.org/) where you can ask **ANYTHING** about GW!
 
+A good start could be [this page](https://www.gw-openscience.org/path/), in order to start thinking about the GW theory and distinguish some basic characteristics for frequencies, rate, masses etc. This page you provide you some educational links to better understand noise and data, and if you want more data to explore or "hear" [here is your chance](https://labcit.ligo.caltech.edu/~jkanner/aapt/web/resources.html). Now, you have a main idea about what actually are **Gravitational Waves** and their data-challanges.
+
+Want to know more about **How does LIGO detect gravitational waves?**, then click to this [youtube video](https://www.youtube.com/watch?v=X7RJHxeCulY&ab_channel=CraigCahillane).
+*********************
 ## Setting Up Environments and LIGO Account
 
 Detailed instructions for setting up your local machine and creating conda environments with the necessary packages for GW astronomy can be found [here](https://github.com/asasli/gw-intro-umn/blob/main/set_up.md). Additionally, if you need to set up your LIGO/Virgo/KAGRA (LVK) account, follow the guidance provided [here](https://github.com/asasli/gw-intro-umn/blob/main/lvk_account.md).
@@ -16,7 +22,7 @@ Parameter estimation is a crucial part of GW astronomy, often using techniques l
 
 ## Waveform Generation
 
-Waveform generation is fundamental for comparing theoretical models with observed GW data. This section will provide resources and examples to help you generate GW waveforms. (Content to be added.)
+Waveform generation is fundamental for comparing theoretical models with observed GW data. This section will provide resources and examples to help you generate GW waveforms. We basically use two different packages, [Bilby]() and [PyCBC]().
 
 ## Suggested Papers
 
