@@ -36,9 +36,9 @@ Waveform generation is fundamental for comparing theoretical models with observe
 
 > - [BBH waveform generation and injection into gaussian noise using ```Bilby``` package](https://github.com/asasli/gw-intro-umn/blob/main/https://github.com/asasli/gw-intro-umn/blob/main/BBH-Bilby_plus_injection.ipynb)
 > - [BBH waveform generation and injection into gaussian noise using ```PyCBC``` package](https://github.com/asasli/gw-intro-umn/blob/main/BBH-PyCBC_plus_injection.ipynb)
-> - [BNS waveform generation with ```PyCBC``` package]()
+> - [BNS waveform generation with ```PyCBC``` package](https://github.com/asasli/gw-intro-umn/blob/main/BNS-PyCBC.ipynb)
 
-*Note: I would suggest to take a look in all the above tutorials, because the might have some information that is not included in another tutorial!*
+*Note: I would suggest to take a look at all the above tutorials, because they might have some information that is not included in another tutorial!*
 
 ## Suggested Papers and Books
 
@@ -53,6 +53,9 @@ For an in-depth understanding of GW research, reading the foundational and recen
 ### Data analysis overview papers
 > - [A guide to LIGO–Virgo detector noise and extraction of transient gravitational-wave signals](https://iopscience.iop.org/article/10.1088/1361-6382/ab685e) and [codes](https://github.com/gw-odw/Data-Guide-Paper), Abbott et al. (2020)
 > - [A Roadmap to Gravitational Wave Data Analysis](https://www.nature.com/articles/s41550-022-01849-y), L. Speri et. al (2022)
+
+### GW tutorials
+> - [PyCBC-Tutorials](https://github.com/gwastro/PyCBC-Tutorials/tree/master/tutorial)
 
 ## Machine Learning in GW Astronomy
 
