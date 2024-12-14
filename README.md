@@ -8,7 +8,7 @@ Detailed instructions for setting up your local machine and creating conda envir
 
 ## Python
 
-The codes in this repository are developed using the `Python` programming language. If you're new to Python, there are plenty of online resources to help you get started! For a structured introduction, check out this organized repository: [Python Intro at AUTh](https://github.com/asasli/Python_Intro_AUTh).
+The codes in this repository are developed using the `Python` programming language. If you're new to Python, there are plenty of online resources to help you get started! For a structured introduction, check out this organized repository: [Python Introduction](https://github.com/asasli/Python_Intro_AUTh).
 
 ## Parameter Estimation with MCMC
 
