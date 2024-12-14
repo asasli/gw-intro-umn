@@ -32,7 +32,7 @@ Parameter estimation is a crucial part of GW astronomy, often using techniques l
 
 ## Waveform Generation
 
-Waveform generation is fundamental for comparing theoretical models with observed GW data. This section will provide resources and examples to help you generate GW waveforms. We basically use two different packages, [Bilby]() and [PyCBC]().
+Waveform generation is fundamental for comparing theoretical models with observed GW data. This section will provide resources and examples to help you generate GW waveforms. We basically use two different packages, [Bilby](https://lscsoft.docs.ligo.org/bilby/) and [PyCBC](https://pycbc.org/pycbc/latest/html/index.html#).
 
 ## Suggested Papers
 
