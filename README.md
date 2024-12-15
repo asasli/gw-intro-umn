@@ -36,9 +36,10 @@ Parameter estimation is a crucial part of GW astronomy, often using techniques l
 
 Waveform generation is fundamental for comparing theoretical models with observed GW data. This section will provide resources and examples to help you generate GW waveforms. We basically use two different packages, [Bilby](https://lscsoft.docs.ligo.org/bilby/) and [PyCBC](https://pycbc.org/pycbc/latest/html/index.html#). You can find many different tutorials in the website of the mentioned packages. However, a quick overview could be achieved through these tutorials:
 
-> - [BBH waveform generation and injection into gaussian noise using ```Bilby``` package](https://github.com/asasli/gw-intro-umn/blob/main/https://github.com/asasli/gw-intro-umn/blob/main/BBH-Bilby_plus_injection.ipynb)
-> - [BBH waveform generation and injection into gaussian noise using ```PyCBC``` package](https://github.com/asasli/gw-intro-umn/blob/main/BBH-PyCBC_plus_injection.ipynb)
-> - [BNS waveform generation with ```PyCBC``` package](https://github.com/asasli/gw-intro-umn/blob/main/BNS-PyCBC.ipynb)
+> - [BBH waveform generation and injection into gaussian noise using ```Bilby``` package](https://github.com/asasli/gw-intro-umn/blob/main/https://github.com/asasli/gw-intro-umn/blob/main/BBH-Bilby_plus_injection.ipynb), A. Sasli (2024)
+> - [BBH waveform generation and injection into gaussian noise using ```PyCBC``` package](https://github.com/asasli/gw-intro-umn/blob/main/BBH-PyCBC_plus_injection.ipynb), A. Sasli (2024)
+> - [BNS waveform generation with ```PyCBC``` package](https://github.com/asasli/gw-intro-umn/blob/main/BNS-PyCBC.ipynb), A. Sasli (2024)
+> - [Waveforms Tutorial](https://github.com/PatriciaSchmidt/GWATUT-waveforms), P. Schmidt, G. Pratten (2021)
 
 *Note: I would suggest to take a look at all the above tutorials, because they might have some information that is not included in another tutorial!*
 
