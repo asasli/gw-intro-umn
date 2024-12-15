@@ -53,11 +53,14 @@ For an in-depth understanding of GW research, reading the foundational and recen
 > - [Gravitational Waves, Vol. 1](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780198570745.001.0001/acprof-9780198570745), M. Maggiore (2007)
 > - [Gravitational Waves, Vol. 2](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198570899.001.0001/oso-9780198570899), M. Maggiore (2018)
 
-### Data analysis overview papers
+### Data analysis overview papers and tutorials
 > - [A guide to LIGO–Virgo detector noise and extraction of transient gravitational-wave signals](https://iopscience.iop.org/article/10.1088/1361-6382/ab685e) and [codes](https://github.com/gw-odw/Data-Guide-Paper), Abbott et al. (2020)
 > - [A Roadmap to Gravitational Wave Data Analysis](https://www.nature.com/articles/s41550-022-01849-y), L. Speri et. al (2022)
 
-A very simple tutorial using ```PyCBC``` for BBH PE, can be found [here](https://github.com/asasli/gw-intro-umn/blob/main/data_analysis/BBH_Signal_Injection_and_Recovery_Tutorial.ipynb).
+> - A very simple tutorial using ```PyCBC``` for BBH PE, can be found [here](https://github.com/asasli/gw-intro-umn/blob/main/data_analysis/BBH_Signal_Injection_and_Recovery_Tutorial.ipynb), A. Sasli (2024).
+
+> - [Parameter estimation on GW150914 using open data](https://colab.research.google.com/github/gw-odw/odw-2019/blob/master/Day_2/Tuto_2.4_Parameter_estimation_for_compact_object_mergers.ipynb)
+> - [Bilby Examples and Tutorials](https://git.ligo.org/lscsoft/bilby/-/tree/master/examples)
 
 ### GW tutorials
 > - [PyCBC-Tutorials](https://github.com/gwastro/PyCBC-Tutorials/tree/master/tutorial)
@@ -67,3 +70,4 @@ A very simple tutorial using ```PyCBC``` for BBH PE, can be found [here](https:/
 Machine learning is becoming increasingly important in GW research for tasks such as signal classification, noise reduction, and parameter estimation. UMN and MIT group have developed tools and ML algorithms for such purposes. For more details, please visit [ML4GW repository](https://github.com/ML4GW)
 
 > - [Deep learning tutorial for Parameter Estimation (Galactic Binary)](https://github.com/NataliaKor/tutorial), N. Korsakova
+> - [ML Tutorial for ML Mock Data Challenge](https://github.com/gwastro/ml-mock-data-challenge-1/tree/master/tutorials/Machine%20Learning)
