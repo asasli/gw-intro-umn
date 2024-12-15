@@ -64,3 +64,5 @@ A very simple tutorial using ```PyCBC``` for BBH PE, can be found [here](https:/
 ## Machine Learning in GW Astronomy
 
 Machine learning is becoming increasingly important in GW research for tasks such as signal classification, noise reduction, and parameter estimation. UMN and MIT group have developed tools and ML algorithms for such purposes. For more details, please visit [ML4GW repository](https://github.com/ML4GW)
+
+> - [Deep learning tutorial for Parameter Estimation (Galactic Binary)](https://github.com/NataliaKor/tutorial), N. Korsakova
