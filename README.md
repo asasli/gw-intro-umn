@@ -56,6 +56,8 @@ For an in-depth understanding of GW research, reading the foundational and recen
 > - [A guide to LIGO–Virgo detector noise and extraction of transient gravitational-wave signals](https://iopscience.iop.org/article/10.1088/1361-6382/ab685e) and [codes](https://github.com/gw-odw/Data-Guide-Paper), Abbott et al. (2020)
 > - [A Roadmap to Gravitational Wave Data Analysis](https://www.nature.com/articles/s41550-022-01849-y), L. Speri et. al (2022)
 
+A very simple tutorial using ```PyCBC``` for BBH PE, can be found [here](https://github.com/asasli/gw-intro-umn/blob/main/data_analysis/BBH_Signal_Injection_and_Recovery_Tutorial.ipynb).
+
 ### GW tutorials
 > - [PyCBC-Tutorials](https://github.com/gwastro/PyCBC-Tutorials/tree/master/tutorial)
 
