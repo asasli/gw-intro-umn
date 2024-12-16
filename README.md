@@ -71,3 +71,6 @@ Machine learning is becoming increasingly important in GW research for tasks suc
 
 > - [Deep learning tutorial for Parameter Estimation (Galactic Binary)](https://github.com/NataliaKor/tutorial), N. Korsakova
 > - [ML Tutorial for ML Mock Data Challenge](https://github.com/gwastro/ml-mock-data-challenge-1/tree/master/tutorials/Machine%20Learning)
+
+## GPUs
+> - [A notebook-based GPU tutorial designed for Google Colab](https://github.com/mikekatz04/GPU_and_GWs_Tutorial), M. Katz
