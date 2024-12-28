@@ -8,6 +8,8 @@
 - [Waveform Generation](#waveform-generation)
 - [Suggested Papers](#suggested-papers)
 - [Machine Learning in GW Astronomy](#machine-learning-in-gw-astronomy)
+- [Workshops and Schools](#Workshops/Schools)
+- [GPUs](#GPUs)
 
 ## Overview
 This repository collects essential steps for conducting research in gravitational-wave (GW) astronomy, based on our activities at the University of Minnesota (UMN).
@@ -72,6 +74,11 @@ Machine learning is becoming increasingly important in GW research for tasks suc
 > - [Deep learning tutorial for Parameter Estimation (Galactic Binary)](https://github.com/NataliaKor/tutorial), N. Korsakova
 > - [ML Tutorial for ML Mock Data Challenge](https://github.com/gwastro/ml-mock-data-challenge-1/tree/master/tutorials/Machine%20Learning)
 > - [ML4GW tutorial](https://github.com/wbenoit26/ml4gw_tutorial), W. Benoit
+
+## Workshops and Schools
+
+> - [GW Open Data Workshop](https://github.com/gw-odw)
+
 
 ## GPUs
 > - [A notebook-based GPU tutorial designed for Google Colab](https://github.com/mikekatz04/GPU_and_GWs_Tutorial), M. Katz
