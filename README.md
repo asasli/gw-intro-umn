@@ -8,7 +8,7 @@
 - [Waveform Generation](#waveform-generation)
 - [Suggested Papers](#suggested-papers)
 - [Machine Learning in GW Astronomy](#machine-learning-in-gw-astronomy)
-- [Workshops and Schools](#Workshops/Schools)
+- [Workshops and Schools](#Workshops-and-Schools)
 - [GPUs](#GPUs)
 
 ## Overview
