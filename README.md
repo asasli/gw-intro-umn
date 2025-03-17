@@ -67,10 +67,11 @@ For an in-depth understanding of GW research, reading the foundational and recen
 ### GW tutorials
 > - [PyCBC-Tutorials](https://github.com/gwastro/PyCBC-Tutorials/tree/master/tutorial)
 
-## Machine Learning in GW Astronomy
+## Machine Learning \& GW Astronomy
 
 Machine learning is becoming increasingly important in GW research for tasks such as signal classification, noise reduction, and parameter estimation. UMN and MIT group have developed tools and ML algorithms for such purposes. For more details, please visit [ML4GW repository](https://github.com/ML4GW)
 
+> - [Big Data in Astrophysics](https://github.com/mcoughlin/ast8581_2025_Spring), M. W. Coughlin
 > - [Deep learning tutorial for Parameter Estimation (Galactic Binary)](https://github.com/NataliaKor/tutorial), N. Korsakova
 > - [ML Tutorial for ML Mock Data Challenge](https://github.com/gwastro/ml-mock-data-challenge-1/tree/master/tutorials/Machine%20Learning)
 > - [ML4GW tutorial](https://github.com/wbenoit26/ml4gw_tutorial), W. Benoit
