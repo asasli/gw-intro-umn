@@ -66,6 +66,7 @@ For an in-depth understanding of GW research, reading the foundational and recen
 
 ### GW tutorials
 > - [PyCBC-Tutorials](https://github.com/gwastro/PyCBC-Tutorials/tree/master/tutorial)
+> - [LISA Analysis Tools (Tutorials from LATW)](https://github.com/mikekatz04/LATW/tree/main), M. Katz, N. Karnesis, N. Korsakova, A. Sasli, A. Nilsson, R. Tenorio, D. Rai, C. Chapman-Bird (2024).
 
 ## Machine Learning \& GW Astronomy
 
