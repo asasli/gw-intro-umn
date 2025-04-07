@@ -7,6 +7,7 @@
 - [Parameter Estimation with MCMC](#parameter-estimation-with-mcmc)
 - [Waveform Generation](#waveform-generation)
 - [Suggested Papers](#suggested-papers-and-books)
+- [Papers related to our activities](#papers-related-to-our-group-activities)
 - [Machine Learning in GW Astronomy](#machine-learning-in-gw-astronomy)
 - [Workshops and Schools](#Workshops-and-Schools)
 - [GPUs](#GPUs)
