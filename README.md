@@ -70,14 +70,17 @@ For an in-depth understanding of GW research, reading the foundational and recen
 > - [Amplfi: Rapid Likelihood Free Inference of Compact Binary
 Coalescences using Accelerated Hardware](https://arxiv.org/abs/2407.19048)
 > - [GWAK: Gravitational-Wave Anomalous Knowledge with Recurrent Autoencoders](https://arxiv.org/abs/2309.11537) & [O3 analysis](https://arxiv.org/pdf/2412.19883)
+
 #### Stochastic GW Background
 > - [TBS: The optimal search for an astrophysical gravitational-wave background](https://arxiv.org/abs/1712.00688)
 > - A paper from Xiao-Xaio Kou is coming soon!
+
 #### Heavy-tailed likelihoods in GW Astronomy
 > - [Heavy-tailed likelihoods for robustness against data outliers: Applications to the analysis of gravitational wave data](https://arxiv.org/abs/2305.04709)
 > - [Characterization of non-Gaussian stochastic signals with heavier-tailed likelihoods](https://arxiv.org/abs/2410.14354)
 > - A new robust and fast statistical framework for GW astronomy (paper is coming soon!)
-#### ML for optical dat
+
+#### ML for optical data
 > - [AstroM^3: A self-supervised multimodal model for astronomy](https://arxiv.org/abs/2411.08842)
 > - [BTSbot: Automated Identification and Follow-up of Bright Transients with Deep Learning](https://iopscience.iop.org/article/10.3847/1538-4357/ad5666)
 > - GitHub Repo for our study (a paper is coming soon): [Apple Cider](https://github.com/ajunell/AppleCider)
