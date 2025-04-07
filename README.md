@@ -80,7 +80,7 @@ Coalescences using Accelerated Hardware](https://arxiv.org/abs/2407.19048)
 #### ML for optical dat
 > - [AstroM^3: A self-supervised multimodal model for astronomy](https://arxiv.org/abs/2411.08842)
 > - [BTSbot: Automated Identification and Follow-up of Bright Transients with Deep Learning](https://iopscience.iop.org/article/10.3847/1538-4357/ad5666)
-> - GitHub Repo for our study (a paper is coming soon):[Apple Cider](https://github.com/ajunell/AppleCider)
+> - GitHub Repo for our study (a paper is coming soon): [Apple Cider](https://github.com/ajunell/AppleCider)
 
 ## GW tutorials
 > - [PyCBC-Tutorials](https://github.com/gwastro/PyCBC-Tutorials/tree/master/tutorial)
