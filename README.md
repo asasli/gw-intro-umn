@@ -9,7 +9,6 @@
 - [Suggested Papers](#suggested-papers-and-books)
 - [Papers related to our activities](#papers-related-to-our-group-activities)
 - [Machine Learning in GW Astronomy](#machine-learning-in-gw-astronomy)
-- [Workshops and Schools](#Workshops-and-Schools)
 - [GPUs](#GPUs)
 
 ## Overview
@@ -63,6 +62,7 @@ For an in-depth understanding of GW research, reading the foundational and recen
 > - A very simple tutorial using ```PyCBC``` for BBH PE, can be found [here](https://github.com/asasli/gw-intro-umn/blob/main/data_analysis/BBH_Signal_Injection_and_Recovery_Tutorial.ipynb), A. Sasli (2024).
 
 > - [Parameter estimation on GW150914 using open data](https://colab.research.google.com/github/gw-odw/odw-2019/blob/master/Day_2/Tuto_2.4_Parameter_estimation_for_compact_object_mergers.ipynb)
+
 > - [Bilby Examples and Tutorials](https://git.ligo.org/lscsoft/bilby/-/tree/master/examples)
 
 ### Papers related to our group activities
@@ -87,22 +87,17 @@ Coalescences using Accelerated Hardware](https://arxiv.org/abs/2407.19048)
 > - GitHub Repo for our study (a paper is coming soon): [Apple Cider](https://github.com/ajunell/AppleCider)
 
 ## GW tutorials
+> - [GW Open Data Workshop](https://github.com/gw-odw)
 > - [PyCBC-Tutorials](https://github.com/gwastro/PyCBC-Tutorials/tree/master/tutorial)
 > - [LISA Analysis Tools (Tutorials from LATW)](https://github.com/mikekatz04/LATW/tree/main), M. Katz, N. Karnesis, N. Korsakova, A. Sasli, A. Nilsson, R. Tenorio, D. Rai, C. Chapman-Bird (2024).
 
 ## Machine Learning \& GW Astronomy
-
 Machine learning is becoming increasingly important in GW research for tasks such as signal classification, noise reduction, and parameter estimation. UMN and MIT group have developed tools and ML algorithms for such purposes. For more details, please visit [ML4GW repository](https://github.com/ML4GW)
 
 > - [Big Data in Astrophysics](https://github.com/mcoughlin/ast8581_2025_Spring), M. W. Coughlin
 > - [Deep learning tutorial for Parameter Estimation (Galactic Binary)](https://github.com/NataliaKor/tutorial), N. Korsakova
 > - [ML Tutorial for ML Mock Data Challenge](https://github.com/gwastro/ml-mock-data-challenge-1/tree/master/tutorials/Machine%20Learning)
 > - [ML4GW tutorial](https://github.com/wbenoit26/ml4gw_tutorial), W. Benoit
-
-## Workshops and Schools
-
-> - [GW Open Data Workshop](https://github.com/gw-odw)
-
 
 ## GPUs
 > - [A notebook-based GPU tutorial designed for Google Colab](https://github.com/mikekatz04/GPU_and_GWs_Tutorial), M. Katz
