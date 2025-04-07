@@ -22,7 +22,7 @@ Want to know more about **How does LIGO detect gravitational waves?**, then clic
 *********************
 ## Setting Up Environments and LIGO Account
 
-Detailed instructions for setting up your local machine and creating conda environments with the necessary packages for GW astronomy can be found [here](https://github.com/asasli/gw-intro-umn/blob/main/set_up.md). Additionally, if you need to set up your LIGO/Virgo/KAGRA (LVK) account, follow the guidance provided [here](https://github.com/asasli/gw-intro-umn/blob/main/lvk_account.md). 
+Detailed instructions for setting up your local machine and creating conda environments with the necessary packages for GW astronomy can be found [here](https://github.com/asasli/gw-intro-umn/blob/main/set_up.md). Additionally, if you need to set up your LIGO/Virgo/KAGRA (LVK) account, follow the guidance provided [here](https://github.com/asasli/gw-intro-umn/blob/main/lvk_account.md). A full detailed google document has been also created by **Andrew Toivonen** for new UMN students ["New Student Onboarding (LIGO)"](https://docs.google.com/document/d/1yelxiE51AHvz1laxDhnbE5thR6ca5b2Am_drCGGpnFY/edit?tab=t.0)
 
 *You may also want to take a look at [bash](https://github.com/asasli/gw-intro-umn/blob/main/bash_intro.md) introdactory.*
 
