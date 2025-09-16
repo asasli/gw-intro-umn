@@ -84,7 +84,7 @@ Coalescences using Accelerated Hardware](https://arxiv.org/abs/2407.19048)
 #### ML for optical data
 > - [AstroM^3: A self-supervised multimodal model for astronomy](https://arxiv.org/abs/2411.08842)
 > - [BTSbot: Automated Identification and Follow-up of Bright Transients with Deep Learning](https://iopscience.iop.org/article/10.3847/1538-4357/ad5666)
-> - [Applying multimodal learning to Classify transient Detections Early (AppleCiDEr) I: Data set, methods, and infrastructure](https://arxiv.org/abs/2507.16088): [AppleCiDEr (GitHub)](https://github.com/skyportal/applecider)
+> - [Applying multimodal learning to Classify transient Detections Early (AppleCiDEr) I: Data set, methods, and infrastructure](https://arxiv.org/abs/2507.16088): GitHuB ➡️ [AppleCiDEr](https://github.com/skyportal/applecider)
 
 ## GW tutorials
 > - [GW Open Data Workshop](https://github.com/gw-odw)
