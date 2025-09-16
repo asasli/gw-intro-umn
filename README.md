@@ -74,7 +74,7 @@ Coalescences using Accelerated Hardware](https://arxiv.org/abs/2407.19048)
 
 #### Stochastic GW Background
 > - [TBS: The optimal search for an astrophysical gravitational-wave background](https://arxiv.org/abs/1712.00688)
-> - A paper from Xiao-Xaio Kou is coming soon!
+> - [Progress toward the detection of the gravitational-wave background from stellar-mass binary black holes: a mock data challenge](https://arxiv.org/abs/2506.14179)
 
 #### Heavy-tailed likelihoods in GW Astronomy
 > - [Heavy-tailed likelihoods for robustness against data outliers: Applications to the analysis of gravitational wave data](https://arxiv.org/abs/2305.04709)
@@ -84,7 +84,7 @@ Coalescences using Accelerated Hardware](https://arxiv.org/abs/2407.19048)
 #### ML for optical data
 > - [AstroM^3: A self-supervised multimodal model for astronomy](https://arxiv.org/abs/2411.08842)
 > - [BTSbot: Automated Identification and Follow-up of Bright Transients with Deep Learning](https://iopscience.iop.org/article/10.3847/1538-4357/ad5666)
-> - GitHub Repo for our study (a paper is coming soon): [Apple Cider](https://github.com/ajunell/AppleCider)
+> - [Applying multimodal learning to Classify transient Detections Early (AppleCiDEr) I: Data set, methods, and infrastructure](https://arxiv.org/abs/2507.16088): [AppleCiDEr (GitHub)](https://github.com/skyportal/applecider)
 
 ## GW tutorials
 > - [GW Open Data Workshop](https://github.com/gw-odw)
