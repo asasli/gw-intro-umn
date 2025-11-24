@@ -90,6 +90,7 @@ Coalescences using Accelerated Hardware](https://arxiv.org/abs/2407.19048)
 > - [GW Open Data Workshop](https://github.com/gw-odw)
 > - [PyCBC-Tutorials](https://github.com/gwastro/PyCBC-Tutorials/tree/master/tutorial)
 > - [LISA Analysis Tools (Tutorials from LATW)](https://github.com/mikekatz04/LATW/tree/main), M. Katz, N. Karnesis, N. Korsakova, A. Sasli, A. Nilsson, R. Tenorio, D. Rai, C. Chapman-Bird (2024).
+> - [ACME tutorial for EM-GW parameter estimation with Eryn](https://github.com/asasli/EM-GW-PE-Eryn/tree/main), A. Sasli, N. Karnesis (2025)
 
 ## Machine Learning \& GW Astronomy
 Machine learning is becoming increasingly important in GW research for tasks such as signal classification, noise reduction, and parameter estimation. UMN and MIT group have developed tools and ML algorithms for such purposes. For more details, please visit [ML4GW repository](https://github.com/ML4GW)
