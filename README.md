@@ -1,104 +1,309 @@
 # Introduction to GW Research at UMN
 
-## Table of Contents
-- [Overview](#overview)
-- [Setting Up Environments and LIGO Account](#setting-up-environments-and-ligo-account)
-- [Python](#python)
-- [Parameter Estimation with MCMC](#parameter-estimation-with-mcmc)
-- [Waveform Generation](#waveform-generation)
-- [Suggested Papers](#suggested-papers-and-books)
-- [Papers related to our activities](#papers-related-to-our-group-activities)
-- [Machine Learning in GW Astronomy](#machine-learning-in-gw-astronomy)
-- [GPUs](#GPUs)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![PyCBC](https://img.shields.io/badge/PyCBC-latest-green.svg)](https://pycbc.org/)
+[![Bilby](https://img.shields.io/badge/Bilby-latest-orange.svg)](https://lscsoft.docs.ligo.org/bilby/)
+[![Maintained](https://img.shields.io/badge/Maintained-yes-brightgreen.svg)](https://github.com/asasli/gw-intro-umn)
 
-## Overview
-This repository collects essential steps for conducting research in gravitational-wave (GW) astronomy, based on our activities at the University of Minnesota (UMN).
-******************
-During your educational-trip, I suggest you to have always open the [ask-IGWN page](https://ask.igwn.org/) where you can ask **ANYTHING** about GW!
+> A curated onboarding repository for students joining the gravitational-wave research group at the **University of Minnesota (UMN)**. It covers environment setup, waveform generation, parameter estimation, machine learning tools, and more.
 
-A good start could be [this page](https://www.gw-openscience.org/path/), in order to start thinking about the GW theory and distinguish some basic characteristics for frequencies, rate, masses etc. This page you provide you some educational links to better understand noise and data, and if you want more data to explore or "hear" [here is your chance](https://labcit.ligo.caltech.edu/~jkanner/aapt/web/resources.html). Now, you have a main idea about what actually are **Gravitational Waves** and their data-challanges.
+---
 
-Want to know more about **How does LIGO detect gravitational waves?**, then click to this [youtube video](https://www.youtube.com/watch?v=X7RJHxeCulY&ab_channel=CraigCahillane).
-*********************
-## Setting Up Environments and LIGO Account
+## 🗺️ Learning Path
 
-Detailed instructions for setting up your local machine and creating conda environments with the necessary packages for GW astronomy can be found [here](https://github.com/asasli/gw-intro-umn/blob/main/set_up.md). Additionally, if you need to set up your LIGO/Virgo/KAGRA (LVK) account, follow the guidance provided [here](https://github.com/asasli/gw-intro-umn/blob/main/lvk_account.md). A full detailed google document has been also created by **Andrew Toivonen** for new UMN students ["New Student Onboarding (LIGO)"](https://docs.google.com/document/d/1yelxiE51AHvz1laxDhnbE5thR6ca5b2Am_drCGGpnFY/edit?tab=t.0)
+**Not sure where to start?** Follow this roadmap based on your background:
 
-*You may also want to take a look at [bash](https://github.com/asasli/gw-intro-umn/blob/main/bash_intro.md) introdactory.*
+```
+🟢 COMPLETE BEGINNER
+│
+├── 1. Read this README top to bottom
+├── 2. Set up your environment       →  setup/set_up.md
+├── 3. Learn Bash basics             →  setup/bash_intro.md
+├── 4. Python refresher              →  github.com/asasli/Python_Intro_AUTh
+└── 5. What are GWs?                 →  gw-openscience.org/path
 
-## Python
+▼
+🟡 SOME BACKGROUND
+│
+├── 6. Waveform generation           →  waveforms/BBH-Bilby_plus_injection.ipynb
+├── 7. Inject signals into noise     →  waveforms/BBH-PyCBC_plus_injection.ipynb
+└── 8. Bayesian inference basics     →  github.com/asasli/BayesMCMC
 
-The codes in this repository are developed using the `Python` programming language. If you're new to Python, there are plenty of online resources to help you get started! For a structured introduction, check out this organized repository: [Python Introduction](https://github.com/asasli/Python_Intro_AUTh) or [this](https://github.com/Morisset/Python-lectures-Notebooks) introduction (more detailed).
+▼
+🔴 READY FOR RESEARCH
+│
+├── 9.  Parameter estimation         →  data_analysis/BBH_Signal_Injection_and_Recovery_Tutorial.ipynb
+├── 10. GW Open Data Workshop        →  github.com/gw-odw
+├── 11. Bilby tutorials              →  git.ligo.org/lscsoft/bilby/-/tree/master/examples
+└── 12. Explore group papers         →  see "Papers Related to Our Group" below
+```
+
+> 🎧 Want to *hear* gravitational waves? → [Audio samples](https://labcit.ligo.caltech.edu/~jkanner/aapt/web/resources.html)
+> 📺 How does LIGO work? → [YouTube](https://www.youtube.com/watch?v=X7RJHxeCulY)
+> 💬 Have a question? → [ask-IGWN](https://ask.igwn.org/)
+
+---
+
+## 📋 Table of Contents
+
+- [Getting Started](#-getting-started)
+- [Repository Structure](#-repository-structure)
+- [Lectures & Courses](#-lectures--courses)
+- [Python Resources](#-python-resources)
+- [Waveform Generation](#-waveform-generation)
+- [Parameter Estimation with MCMC](#-parameter-estimation-with-mcmc)
+- [GW Tutorials](#-gw-tutorials)
+- [Machine Learning & GW Astronomy](#-machine-learning--gw-astronomy)
+- [GPUs](#-gpus)
+- [Suggested Papers & Books](#-suggested-papers--books)
+- [Papers Related to Our Group](#-papers-related-to-our-group)
+- [Contributing](#-contributing)
+
+---
+
+## 🚀 Getting Started
+
+### Environment & Account Setup
+
+| Resource | Description |
+|---|---|
+| [setup/set_up.md](setup/set_up.md) | Local machine setup, Miniconda, CVMFS, IGWN conda environment |
+| [setup/lvk_account.md](setup/lvk_account.md) | LIGO/Virgo/KAGRA account, LDG cluster access, Kerberos |
+| [setup/bash_intro.md](setup/bash_intro.md) | Introduction to Bash scripting |
+| [New Student Onboarding (LIGO)](https://docs.google.com/document/d/1yelxiE51AHvz1laxDhnbE5thR6ca5b2Am_drCGGpnFY/edit) | Full guide by **Andrew Toivonen** for new UMN students |
+
+> 💡 If you run into any issues during setup, check the [Troubleshooting Guide](TROUBLESHOOTING.md).
+
+### 🔐 SSH Access to Clusters & Private Repositories
+
+When working on LIGO clusters, you'll need SSH key authentication to access private GitHub repositories.
+
+```bash
+# 1. Generate SSH key on the cluster
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+# 2. Start SSH agent and add your key
+eval "$(ssh-agent -s)" && ssh-add ~/.ssh/id_ed25519
+
+# 3. Copy your public key → paste into GitHub Settings → SSH keys
+cat ~/.ssh/id_ed25519.pub
+
+# 4. Test the connection
+ssh -T git@github.com
+
+# 5. Clone using SSH (not HTTPS!)
+git clone git@github.com:organization/repository.git
+```
+
+> ⚠️ Set correct permissions: `chmod 700 ~/.ssh && chmod 600 ~/.ssh/id_ed25519`
+
+📄 Full guide: [setup/README_SSH_Cluster_Git_Access.md](setup/README_SSH_Cluster_Git_Access.md)
+
+---
+
+## 📁 Repository Structure
+
+```
+gw-intro-umn/
+│
+├── README.md                        ← You are here
+├── CONTRIBUTING.md                  ← How to contribute
+├── CHANGELOG.md                     ← History of changes
+├── TROUBLESHOOTING.md               ← Common errors & fixes
+├── LICENSE
+│
+├── setup/                           ← Environment & account setup
+│   ├── README.md
+│   ├── set_up.md
+│   ├── lvk_account.md
+│   ├── bash_intro.md
+│   └── README_SSH_Cluster_Git_Access.md
+│
+├── waveforms/                       ← Waveform generation notebooks
+│   ├── README.md
+│   ├── BBH-Bilby_plus_injection.ipynb
+│   ├── BBH-PyCBC_plus_injection.ipynb
+│   └── BNS-PyCBC.ipynb
+│
+├── data_analysis/                   ← PE & signal recovery notebooks
+│   ├── README.md
+│   └── BBH_Signal_Injection_and_Recovery_Tutorial.ipynb
+│
+└── lectures/                        ← Curated lectures & courses
+    └── README.md
+```
+
+---
+
+## 🎓 Lectures & Courses
+
+See the full curated list in [lectures/README.md](lectures/README.md).
+
+### Highlights
+
+| Resource | Level |
+|---|---|
+| [GW Open Data Workshop](https://gw-odw.thinkific.com/) | Beginner–Intermediate |
+| [Perimeter Institute – GW lectures](https://pirsa.org/search?searchQuery=gravitational+waves) | Intermediate–Advanced |
+| [LISA Analysis Tools Workshop (LATW)](https://github.com/mikekatz04/LATW/tree/main) | Intermediate–Advanced |
+| [Les Houches GW lecture notes](https://arxiv.org/abs/gr-qc/0501016) | Intermediate |
+| [How LIGO detects GWs (YouTube)](https://www.youtube.com/watch?v=X7RJHxeCulY) | Beginner |
+
+---
+
+## 🐍 Python Resources
+
+The code in this repository is written in **Python**. If you're new to Python:
+
+| Resource | Level |
+|---|---|
+| [Python Introduction (AUTh)](https://github.com/asasli/Python_Intro_AUTh) | Beginner |
+| [Python Lectures Notebooks](https://github.com/Morisset/Python-lectures-Notebooks) | Beginner–Intermediate |
+| [Big Data in Astrophysics](https://github.com/mcoughlin/ast8581_2025_Spring) | Intermediate |
+
+**Key libraries used in this repo:**
+```python
+numpy        # Array operations
+matplotlib   # Plotting
+pycbc        # GW data analysis
+bilby        # Bayesian inference for GW
+lal          # LIGO Analysis Library
+astropy      # Astronomical calculations
+```
+
+---
+
+##  Waveform Generation
+
+We use two main packages: [**Bilby**](https://lscsoft.docs.ligo.org/bilby/) and [**PyCBC**](https://pycbc.org/pycbc/latest/html/index.html).
+
+> 💡 *Each notebook contains slightly different content and tips — reading all three is recommended.*
+
+| Notebook | Description | Package |
+|---|---|---|
+| [BBH-Bilby_plus_injection.ipynb](waveforms/BBH-Bilby_plus_injection.ipynb) | BBH waveform generation & injection into Gaussian noise | `Bilby` |
+| [BBH-PyCBC_plus_injection.ipynb](waveforms/BBH-PyCBC_plus_injection.ipynb) | BBH waveform generation & injection into Gaussian noise | `PyCBC` |
+| [BNS-PyCBC.ipynb](waveforms/BNS-PyCBC.ipynb) | Binary neutron star waveform generation | `PyCBC` |
+| [Waveforms Tutorial](https://github.com/PatriciaSchmidt/GWATUT-waveforms) | General waveform tutorial | Both |
+
+**Common waveform approximants:**
+
+| Approximant | Domain | Use case |
+|---|---|---|
+| `IMRPhenomD` | Frequency | Non-spinning BBH, fast |
+| `IMRPhenomXP` | Frequency | Precessing BBH |
+| `SEOBNRv4` | Time | Accurate BBH, aligned spin |
+| `TaylorF2` | Frequency | BNS / low-mass systems |
+| `IMRPhenomPv2_NRTidal` | Frequency | BNS with tidal deformability |
+
+---
 
 ## Parameter Estimation with MCMC
 
-Parameter estimation is a crucial part of GW astronomy, often using techniques like Markov Chain Monte Carlo (MCMC). [Bayesian Inference and MCMC](https://github.com/asasli/BayesMCMC) is a repository that covers very basic concepts. More content for applications GW astronomy is to be added.
+Parameter estimation is a core part of GW astronomy, using Bayesian inference and MCMC to recover source properties.
 
-## Waveform Generation
+| Resource | Description |
+|---|---|
+| [Bayesian Inference & MCMC](https://github.com/asasli/BayesMCMC) | Foundational concepts (our repo) |
+| [BBH Signal Injection & Recovery](data_analysis/BBH_Signal_Injection_and_Recovery_Tutorial.ipynb) | Simple BBH PE with PyCBC — A. Sasli (2024) |
+| [PE on GW150914 (open data)](https://colab.research.google.com/github/gw-odw/odw-2019/blob/master/Day_2/Tuto_2.4_Parameter_estimation_for_compact_object_mergers.ipynb) | Google Colab tutorial |
+| [Bilby Examples](https://git.ligo.org/lscsoft/bilby/-/tree/master/examples) | Official Bilby example collection |
+| [EM-GW PE with Eryn (ACME)](https://github.com/asasli/EM-GW-PE-Eryn/tree/main) | Multi-messenger PE — A. Sasli, N. Karnesis (2025) |
 
-Waveform generation is fundamental for comparing theoretical models with observed GW data. This section will provide resources and examples to help you generate GW waveforms. We basically use two different packages, [Bilby](https://lscsoft.docs.ligo.org/bilby/) and [PyCBC](https://pycbc.org/pycbc/latest/html/index.html#). You can find many different tutorials in the website of the mentioned packages. However, a quick overview could be achieved through these tutorials:
+**Key parameters in CBC analysis:**
+```
+Intrinsic:  m₁, m₂ (masses)  ·  χ₁, χ₂ (spins)  ·  Λ₁, Λ₂ (tides, BNS only)
+Extrinsic:  d_L (distance)  ·  ι (inclination)  ·  α, δ (sky location)  ·  ψ (polarization)
+```
 
-> - [BBH waveform generation and injection into gaussian noise using ```Bilby``` package](https://github.com/asasli/gw-intro-umn/blob/main/https://github.com/asasli/gw-intro-umn/blob/main/BBH-Bilby_plus_injection.ipynb), A. Sasli (2024)
-> - [BBH waveform generation and injection into gaussian noise using ```PyCBC``` package](https://github.com/asasli/gw-intro-umn/blob/main/BBH-PyCBC_plus_injection.ipynb), A. Sasli (2024)
-> - [BNS waveform generation with ```PyCBC``` package](https://github.com/asasli/gw-intro-umn/blob/main/BNS-PyCBC.ipynb), A. Sasli (2024)
-> - [Waveforms Tutorial](https://github.com/PatriciaSchmidt/GWATUT-waveforms), P. Schmidt, G. Pratten (2021)
+---
 
-*Note: I would suggest to take a look at all the above tutorials, because they might have some information that is not included in another tutorial!*
+## 📚 GW Tutorials
 
-## Suggested Papers and Books
+| Resource | Description |
+|---|---|
+| [GW Open Data Workshop](https://github.com/gw-odw) | Official annual LIGO/Virgo open data tutorials |
+| [PyCBC Tutorials](https://github.com/gwastro/PyCBC-Tutorials/tree/master/tutorial) | Comprehensive PyCBC tutorial series |
+| [LISA Analysis Tools (LATW)](https://github.com/mikekatz04/LATW/tree/main) | M. Katz, N. Karnesis, N. Korsakova, A. Sasli et al. (2024) |
+| [EM-GW PE with Eryn (ACME)](https://github.com/asasli/EM-GW-PE-Eryn/tree/main) | A. Sasli, N. Karnesis (2025) |
 
-For an in-depth understanding of GW research, reading the foundational and recent papers in the field is highly recommended. A curated list of suggested papers will be added here soon.
+---
 
-### Books
+## 🤖 Machine Learning & GW Astronomy
 
-> - [Gravitational-Wave Astronomy](https://global.oup.com/academic/product/gravitational-wave-astronomy-9780198568032?cc=gr&lang=en&), N. Andersson (2021)
-> - [Gravitational Waves, Vol. 1](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780198570745.001.0001/acprof-9780198570745), M. Maggiore (2007)
-> - [Gravitational Waves, Vol. 2](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198570899.001.0001/oso-9780198570899), M. Maggiore (2018)
+ML is increasingly central to GW research — for detection, noise characterization, and parameter estimation. See the [ML4GW repository](https://github.com/ML4GW) for tools developed by UMN & MIT.
 
-### Data analysis overview papers and tutorials
-> - [A guide to LIGO–Virgo detector noise and extraction of transient gravitational-wave signals](https://iopscience.iop.org/article/10.1088/1361-6382/ab685e) and [codes](https://github.com/gw-odw/Data-Guide-Paper), Abbott et al. (2020)
-> - [A Roadmap to Gravitational Wave Data Analysis](https://www.nature.com/articles/s41550-022-01849-y), L. Speri et. al (2022)
+| Resource | Description |
+|---|---|
+| [ML4GW Tutorial](https://github.com/wbenoit26/ml4gw_tutorial) | W. Benoit |
+| [Deep Learning for PE (Galactic Binary)](https://github.com/NataliaKor/tutorial) | N. Korsakova |
+| [ML Mock Data Challenge Tutorial](https://github.com/gwastro/ml-mock-data-challenge-1/tree/master/tutorials/Machine%20Learning) | gwastro |
+| [Big Data in Astrophysics](https://github.com/mcoughlin/ast8581_2025_Spring) | M. W. Coughlin |
 
-> - A very simple tutorial using ```PyCBC``` for BBH PE, can be found [here](https://github.com/asasli/gw-intro-umn/blob/main/data_analysis/BBH_Signal_Injection_and_Recovery_Tutorial.ipynb), A. Sasli (2024).
+---
 
-> - [Parameter estimation on GW150914 using open data](https://colab.research.google.com/github/gw-odw/odw-2019/blob/master/Day_2/Tuto_2.4_Parameter_estimation_for_compact_object_mergers.ipynb)
+## ⚡ GPUs
 
-> - [Bilby Examples and Tutorials](https://git.ligo.org/lscsoft/bilby/-/tree/master/examples)
+| Resource | Description |
+|---|---|
+| [GPU & GWs Tutorial](https://github.com/mikekatz04/GPU_and_GWs_Tutorial) | Notebook-based GPU tutorial for Google Colab — M. Katz |
 
-### Papers related to our group activities
-#### GWs & ML
-> - [Aframe: A machine-learning pipeline for real-time detection of gravitational waves from compact binary coalescences](https://arxiv.org/html/2403.18661v1)
-> - [Amplfi: Rapid Likelihood Free Inference of Compact Binary
-Coalescences using Accelerated Hardware](https://arxiv.org/abs/2407.19048)
-> - [GWAK: Gravitational-Wave Anomalous Knowledge with Recurrent Autoencoders](https://arxiv.org/abs/2309.11537) & [O3 analysis](https://arxiv.org/pdf/2412.19883)
+---
 
-#### Stochastic GW Background
-> - [TBS: The optimal search for an astrophysical gravitational-wave background](https://arxiv.org/abs/1712.00688)
-> - [Progress toward the detection of the gravitational-wave background from stellar-mass binary black holes: a mock data challenge](https://arxiv.org/abs/2506.14179)
+## 📖 Suggested Papers & Books
 
-#### Heavy-tailed likelihoods in GW Astronomy
-> - [Heavy-tailed likelihoods for robustness against data outliers: Applications to the analysis of gravitational wave data](https://arxiv.org/abs/2305.04709)
-> - [Characterization of non-Gaussian stochastic signals with heavier-tailed likelihoods](https://arxiv.org/abs/2410.14354)
-> - A new robust and fast statistical framework for GW astronomy (paper is coming soon!)
+### Textbooks
 
-#### ML for optical data
-> - [AstroM^3: A self-supervised multimodal model for astronomy](https://arxiv.org/abs/2411.08842)
-> - [BTSbot: Automated Identification and Follow-up of Bright Transients with Deep Learning](https://iopscience.iop.org/article/10.3847/1538-4357/ad5666)
-> - [Applying multimodal learning to Classify transient Detections Early (AppleCiDEr) I: Data set, methods, and infrastructure](https://arxiv.org/abs/2507.16088): GitHuB ➡️ [AppleCiDEr](https://github.com/skyportal/applecider)
+| Title | Author | Year |
+|---|---|---|
+| [Gravitational-Wave Astronomy](https://global.oup.com/academic/product/gravitational-wave-astronomy-9780198568032) | N. Andersson | 2021 |
+| [Gravitational Waves, Vol. 1](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780198570745.001.0001/acprof-9780198570745) | M. Maggiore | 2007 |
+| [Gravitational Waves, Vol. 2](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198570899.001.0001/oso-9780198570899) | M. Maggiore | 2018 |
+| [A First Course in GR](https://www.amazon.com/First-Course-General-Relativity/dp/0521887054) | B. Schutz | 2009 |
 
-## GW tutorials
-> - [GW Open Data Workshop](https://github.com/gw-odw)
-> - [PyCBC-Tutorials](https://github.com/gwastro/PyCBC-Tutorials/tree/master/tutorial)
-> - [LISA Analysis Tools (Tutorials from LATW)](https://github.com/mikekatz04/LATW/tree/main), M. Katz, N. Karnesis, N. Korsakova, A. Sasli, A. Nilsson, R. Tenorio, D. Rai, C. Chapman-Bird (2024).
-> - [ACME tutorial for EM-GW parameter estimation with Eryn](https://github.com/asasli/EM-GW-PE-Eryn/tree/main), A. Sasli, N. Karnesis (2025)
+### Key Data Analysis Papers
 
-## Machine Learning \& GW Astronomy
-Machine learning is becoming increasingly important in GW research for tasks such as signal classification, noise reduction, and parameter estimation. UMN and MIT group have developed tools and ML algorithms for such purposes. For more details, please visit [ML4GW repository](https://github.com/ML4GW)
+- [A guide to LIGO–Virgo detector noise and extraction of transient GW signals](https://iopscience.iop.org/article/10.1088/1361-6382/ab685e) + [codes](https://github.com/gw-odw/Data-Guide-Paper) — Abbott et al. (2020)
+- [A Roadmap to Gravitational Wave Data Analysis](https://www.nature.com/articles/s41550-022-01849-y) — L. Speri et al. (2022)
+- [Parameter estimation with Bilby](https://arxiv.org/abs/1811.02042) — Ashton et al. (2019)
+- [Parameter estimation with LALInference](https://arxiv.org/abs/1409.7215) — Veitch et al. (2015)
 
-> - [Big Data in Astrophysics](https://github.com/mcoughlin/ast8581_2025_Spring), M. W. Coughlin
-> - [Deep learning tutorial for Parameter Estimation (Galactic Binary)](https://github.com/NataliaKor/tutorial), N. Korsakova
-> - [ML Tutorial for ML Mock Data Challenge](https://github.com/gwastro/ml-mock-data-challenge-1/tree/master/tutorials/Machine%20Learning)
-> - [ML4GW tutorial](https://github.com/wbenoit26/ml4gw_tutorial), W. Benoit
+---
 
-## GPUs
-> - [A notebook-based GPU tutorial designed for Google Colab](https://github.com/mikekatz04/GPU_and_GWs_Tutorial), M. Katz
+## Papers Related to Our Group
+
+### GWs & Machine Learning
+
+- [Aframe: ML pipeline for real-time GW detection from CBCs](https://arxiv.org/html/2403.18661v1)
+- [Amplfi: Rapid Likelihood-Free Inference of CBCs](https://arxiv.org/abs/2407.19048)
+- [GWAK: GW Anomalous Knowledge with Recurrent Autoencoders](https://arxiv.org/abs/2309.11537) & [O3 analysis](https://arxiv.org/pdf/2412.19883)
+
+### Stochastic GW Background
+
+- [TBS: Optimal search for an astrophysical GW background](https://arxiv.org/abs/1712.00688)
+- [Progress toward detection of the GW background from stellar-mass BBHs](https://arxiv.org/abs/2506.14179)
+
+### Heavy-Tailed Likelihoods in GW Astronomy
+
+- [Heavy-tailed likelihoods for robustness against data outliers](https://arxiv.org/abs/2305.04709)
+- [Characterization of non-Gaussian stochastic signals](https://arxiv.org/abs/2410.14354)
+- *A new robust and fast statistical framework for GW astronomy (coming soon!)*
+
+### ML for Optical Data
+
+- [AstroM³: Self-supervised multimodal model for astronomy](https://arxiv.org/abs/2411.08842)
+- [BTSbot: Automated identification of bright transients](https://iopscience.iop.org/article/10.3847/1538-4357/ad5666)
+- [AppleCiDEr I: Multimodal transient classification](https://arxiv.org/abs/2507.16088) → [GitHub](https://github.com/skyportal/applecider)
+
+---
+
+## Contributing
+
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to add tutorials, fix bugs, or improve documentation.
+
+---
+
+<div align="center">
+  <sub>Maintained by the GW group at the University of Minnesota</sub>
+</div>
