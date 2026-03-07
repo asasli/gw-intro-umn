@@ -9,7 +9,7 @@ This folder contains all guides needed to get your environment ready for GW rese
 | [lvk_account.md](lvk_account.md) | LVK account creation, LDG cluster access, Kerberos, SSH login |
 | [bash_intro.md](bash_intro.md) | Introduction to Bash scripting for beginners |
 | [README_SSH_Cluster_Git_Access.md](README_SSH_Cluster_Git_Access.md) | SSH key setup to access private GitHub repos from a cluster |
-| [setup/delta_access_guide.md](setup/delta_access_guide.md) | NCSA Delta ACCESS allocation, login, & Slurm job submission |
+| [delta_access_guide.md](delta_access_guide.md) | NCSA Delta ACCESS allocation, login, & Slurm job submission |
 
 ---
 
