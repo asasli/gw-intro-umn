@@ -278,6 +278,7 @@ ML is increasingly central to GW research — for detection, noise characterizat
 - [Aframe: ML pipeline for real-time GW detection from CBCs](https://arxiv.org/html/2403.18661v1)
 - [Amplfi: Rapid Likelihood-Free Inference of CBCs](https://arxiv.org/abs/2407.19048)
 - [GWAK: GW Anomalous Knowledge with Recurrent Autoencoders](https://arxiv.org/abs/2309.11537) & [O3 analysis](https://arxiv.org/pdf/2412.19883)
+- Speeding up LISA global-fit with ML (repo coming soon!)
 
 ### Stochastic GW Background
 
@@ -295,6 +296,11 @@ ML is increasingly central to GW research — for detection, noise characterizat
 - [AstroM³: Self-supervised multimodal model for astronomy](https://arxiv.org/abs/2411.08842)
 - [BTSbot: Automated identification of bright transients](https://iopscience.iop.org/article/10.3847/1538-4357/ad5666)
 - [AppleCiDEr I: Multimodal transient classification](https://arxiv.org/abs/2507.16088) → [GitHub](https://github.com/skyportal/applecider)
+- [AppleCiDEr II: SpectraNet](https://arxiv.org/abs/2510.07215)
+- Anomaly Detection with AppleCiDEr (paper coming soon!)
+
+### Anomaly Detection for Solar Wind
+- EMBER: ML for Core Electron Heating due to Wave Modulation in the Solar Wind → [GitHub](https://github.com/asasli/EMBER) (paper coming soon!)
 
 ---
 
