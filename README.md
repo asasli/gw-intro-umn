@@ -288,7 +288,7 @@ ML is increasingly central to GW research — for detection, noise characterizat
 
 - [Heavy-tailed likelihoods for robustness against data outliers](https://arxiv.org/abs/2305.04709)
 - [Characterization of non-Gaussian stochastic signals](https://arxiv.org/abs/2410.14354)
-- *A new robust and fast statistical framework for GW astronomy (coming soon!)*
+- [Beyond Gaussian Assumptions: A new robust statistical framework for gravitational-wave data analysis](https://arxiv.org/abs/2602.22074)
 
 ### ML for Optical Data
 
