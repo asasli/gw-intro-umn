@@ -300,7 +300,7 @@ ML is increasingly central to GW research — for detection, noise characterizat
 - Anomaly Detection with AppleCiDEr (paper coming soon!)
 
 ### Anomaly Detection for Solar Wind
-- EMBER: ML for Core Electron Heating due to Wave Modulation in the Solar Wind → [GitHub](https://github.com/asasli/EMBER) (paper coming soon!)
+- EMBER: ML for Core Electron Heating due to Wave Modulation in the Solar Wind → [GitHub](https://github.com/asasli/EMBER) ([paper](https://arxiv.org/abs/2605.00162))
 
 ---
 
